@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ключевые слова" />
+    <meta name="description" content="описание" />
+    <meta name="author" content="RQ" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+    <title>Студия печати Аполлон</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <nav class="header__nav">
+            <a href="#" class="header_logo--link">
+                <p class="header__logo--text">Студия печати Аполлон</p>
+            </a>
+            <ul class="site__navigation">
+                <li class="site__navigation--item">
+                    <a href="#" class="site__navigation--link">Главная</a>
+                </li>
+                <li class="site__navigation--item">
+                    <a href="#services" class="site__navigation--link">Улсуги</a>
+                </li>
+                <li class="site__navigation--item">
+                    <a href="#prices" class="site__navigation--link">Цены</a>
+                </li>
+                <li class="site__navigation--item">
+                    <a href="#work" class="site__navigation--link">Наши работы</a>
+                </li>
+                <li class="site__navigation--item">
+                    <a href="#reviews" class="site__navigation--link">Отзывы</a>
+                </li>
+                <li class="site__navigation--item">
+                    <a href="#contacts" class="site__navigation--link">Контакты</a>
+                </li>
+            </ul>
+            <a class="header__tel" href="tel:+79223983230">+7 (922) 398-32-30</a>
+            <ul class="header__contacts--list">
+                <li class="header__contacts--item">
+                    <a href="#" class="header__contacts--link"><img src="./images/header__instagram.png" alt="Instagram" class="header__contacts--img" /></a>
+                </li>
+                <li class="header__contacts--item">
+                    <a href="#" class="header__contacts--link"><img src="./images/header__vk.png" alt="Vkontakte" class="header__contacts--img" /></a>
+                </li>
+            </ul>
+            <button class="header__btn pop__up--btn">Получить консультацию</button>
+        </nav>
+    </header>
+    <main>
+        <div class="hamburger-menu ">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+            <ul class="menu__box ">
+                <li><a href="# " class="menu__item ">Главная</a></li>
+                <li><a class="menu__item " href="#services ">Улсуги</a></li>
+                <li><a class="menu__item " href="#prices ">Цены</a></li>
+                <li><a class="menu__item " href="#work ">Наши работы</a></li>
+                <li><a class="menu__item " href="#reviews ">Отзывы</a></li>
+                <li><a class="menu__item " href="#contacts ">Контакты</a></li>
+            </ul>
+        </div>
+        <section class="hero ">
+            <div class="container ">
+                <div class="hero__content ">
+                    <div class="hero__content--list ">
+                        <h1 class="hero__title ">Сочная печать фото на холсте в Тюмени!</h1>
+                        <p class="hero__text ">
+                            Прекрасный подарок по приятной цене
+                            <span class="hero__text--color ">от 640 рублей за один день!
+                </span>
+                        </p>
+                        <button class="hero__btn pop__up--btn ">Заказать</button>
+                    </div>
+                    <div class="hero__img ">
+                        <img src="./images/hero__foto1.png " alt="картина на холсте " class="hero__foto " />
+                        <div class="hero__foto--two ">
+                            <img src="./images/hero__foto2.png " alt="картина на холсте " class="hero__foto " />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best ">
+            <div class="container ">
+                <ul class="best__list ">
+                    <li class="best__item ">
+                        <img src="./images/best__1.png " alt="картина на холсте " class="best__item--img " />
+                        <h3 class="best__item--title ">ДРИМ АРТ</h3>
+                        <p class="best__item--text ">
+                            Яркие краски, броский снимок, немного волшебства компьютерной обработки — вуаля! Получился портрет в стиле дрим-арт — трендовый подарок и стильное украшение интерьера.
+                        </p>
+                        <p class="best__item--price ">Цена от: 1840 руб</p>
+                        <button class="services__item--btn pop__up--btn ">Заказать</button>
+                    </li>
+                    <li class="best__item ">
+                        <img src="./images/best__2.png " alt="картина на холсте " class="best__item--img " />
+                        <h3 class="best__item--title ">ПОП АРТ</h3>
+                        <p class="best__item--text ">
+                            Легкий образ мультяшного героя или героя комиксов — решать Вам, а наши профессиональные дизайнеры создадут уникальный поп-арт
+                        </p>
+                        <p class="best__item--price ">Цена от: 1840 руб</p>
+                        <button class="services__item--btn pop__up--btn ">Заказать</button>
+                    </li>
+                    <li class="best__item ">
+                        <img src="./images/best__3.png " alt="картина на холсте " class="best__item--img " />
+                        <h3 class="best__item--title ">Печать фото</h3>
+                        <p class="best__item--text ">
+                            Печатаем изображение на натуральном хлопковом холсте
+                        </p>
+                        <p class="best__item--price ">Цена от: 1840 руб</p>
+                        <button class="services__item--btn pop__up--btn ">Заказать</button>
+                    </li>
+                    <li class="best__item ">
+                        <img src="./images/best__4.png " alt="картина на холсте " class="best__item--img " />
+                        <h3 class="best__item--title ">Коллаж из фото</h3>
+                        <p class="best__item--text ">
+                            Декоративная композиция из полюбившихся фотографий, которая станет украшением любого интерьера.
+                        </p>
+                        <p class="best__item--price ">Цена от: 1840 руб</p>
+                        <button class="services__item--btn pop__up--btn ">Заказать</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="services ">
+            <div class="container ">
+                <h2 id="services " class="services__title main__title ">
+                    Наши <span class="main__title-color ">услуги</span>
+                </h2>
+                <div class="services__content ">
+                    <ul class="services__list ">
+                        <li class="services__item ">
+                            <img src="./images/services__1.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">В образе</h3>
+                            <p class="services__item--text ">
+                                Этот вариант представляет собой исторический (или любой другой - например образ персонажа фильма) портрет в который наши художники вписывают человека
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/services_2_2.png" alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Из слов</h3>
+                            <p class="services__item--text ">
+                                Портрет из слов — выражение своих чувств из 1000 слов.
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/services__3.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Мульт-герой</h3>
+                            <p class="services__item--text ">
+                                А вы хотите почувствовать себя супергероем? Сделали такой интересный портрет в подарок. И не забыли про любимую машину и мотоцикл
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/services__4.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Love is</h3>
+                            <p class="services__item--text ">
+                                Такой оригинальный подарок демонстрирует любовь и внимание.
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/services__5.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Акварель</h3>
+                            <p class="services__item--text ">
+                                Акварель — техника живописи позволяющая создать легкий, светлый, богатый полутонами и цветовыми переходами подарок виде персонального портрета с фотографии.
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/services__6.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Портрет питомца</h3>
+                            <p class="services__item--text ">
+                                Превратите фотографию вашего питомца в портрет
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                    </ul>
+                    <ul class="servies__list--block ">
+                        <li class="services__item ">
+                            <img src="./images/work__10.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Дрим-Арт</h3>
+                            <p class="services__item--text ">
+                                Яркие краски, броский снимок, немного волшебства компьютерной обработки — вуаля! Получился портрет в стиле дрим-арт — трендовый подарок и стильное украшение интерьера.
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/work__11.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Корпоративный шарж</h3>
+                            <p class="services__item--text ">
+                                Портрет в стиле цветной туши. Фото обрабатывается специальными кистями и наложениями текстур и цвета. Тем самым создавая эффект цветной туши.
+                            </p>
+                            <p class="services__item--price ">Цена от: 1840 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                        <li class="services__item ">
+                            <img src="./images/work__12.png " alt="картина на холсте " class="services__item--img " />
+                            <h3 class="services__item--title ">Модульные картины</h3>
+                            <p class="services__item--text ">
+                                Картины из нескольких частей, образующих единый образ.
+                            </p>
+                            <p class="services__item--price ">Цена от: 2700 руб</p>
+                            <button class="services__item--btn pop__up--btn ">Заказать</button>
+                        </li>
+                    </ul>
+                    <!-- <button class="services__item--btn ">Показать больше</button> -->
+                </div>
+            </div>
+        </section>
+        <section id="prices " class="prices ">
+            <div class="container ">
+                <h2 class="prices__title main__title ">
+                    Наши <span class="main__title-color ">цены</span>
+                </h2>
+                <ul class="prices__list ">
+                    <li class="prices__item prices__item--color ">
+                        <p class="prices__item--text ">30х20 см.  1000р</p>
+                        <p class="prices__item--text ">40х50 см.  1490р</p>
+                        <p class="prices__item--text ">50х60 см.  1580р</p>
+                        <p class="prices__item--text ">70х80 см.  2600р</p>
+                    </li>
+                    <li class="prices__item ">
+                        <p class="prices__item--text ">30х30 см.  1100р</p>
+                        <p class="prices__item--text ">40х60 см.  1590р</p>
+                        <p class="prices__item--text ">50х70 см.  1700р</p>
+                        <p class="prices__item--text ">80х90 см.  2850р</p>
+                    </li>
+                    <li class="prices__item prices__item--color ">
+                        <p class="prices__item--text ">30х40 см.  1200р</p>
+                        <p class="prices__item--text ">40х70 см.  1690р</p>
+                        <p class="prices__item--text ">60х80 см.  2290р</p>
+                        <p class="prices__item--text ">80х120 см. 3900р</p>
+                    </li>
+                    <li class="prices__item ">
+                        <p class="prices__item--text ">40х40 см.  1300р</p>
+                        <p class="prices__item--text ">50х50 см.  1600р</p>
+                        <p class="prices__item--text ">60х90 см.  2490р</p>
+                        <p class="prices__item--text ">100х150 см. 4800р</p>
+                    </li>
+                </ul>
+                <p class="prices__text ">*можем изготовить по вашим размерам</p>
+            </div>
+        </section>
+        <section id="work " class="work ">
+            <div class="container ">
+                <h2 class="work__title main__title ">
+                    Наши <span class="main__title-color ">работы</span>
+                </h2>
+                <ul class="work__content ">
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_1.jpg " />
+                            <img src="./images/after_1.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_2.jpg " />
+                            <img src="./images/after_2.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_3.jpg " />
+                            <img src="./images/after_3.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_4.jpg " />
+                            <img src="./images/after_4.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_5.jpg " />
+                            <img src="./images/after_5.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_6.jpg " />
+                            <img src="./images/after_6.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_7.jpg " />
+                            <img src="./images/after_7.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_8.jpg " />
+                            <img src="./images/after_8.jpg " />
+                        </div>
+                    </li>
+                    <li class="work__item ">
+                        <div class="twentytwenty-container ">
+                            <img src="./images/before_9.jpg " />
+                            <img src="./images/after_9.jpg " />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="reviews " class="reviews ">
+            <div class="container ">
+                <h2 class="reviews__title main__title ">
+                    Наши <span class="main__title-color ">отзывы</span>
+                </h2>
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide ">
+                            <img src="./images/review-five.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-four.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-one.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-three.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-two.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-five.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-four.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-one.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-three.png " class="swiper-img " />
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="./images/review-two.png " class="swiper-img " />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination "></div>
+                </div>
+            </div>
+        </section>
+        <section class="order ">
+            <div class="container ">
+                <form id="form" action="#" class="form">
+                    <h2 class="form__title main__title ">
+                        Закажите <span class="main__title-color ">фото на холсте</span>
+                    </h2>
+                    <label>
+              <h3 class="select">Выберите ширину (см) и высоту (см)</h3>
+              <select name="size" id="width" class="form__select" required>
+                <option class="one__size" value="0 "></option>
+                <option class="one__size" value="1000">30х20 см</option>
+                <option class="two__size" value="1100">30х30 см</option>
+                <option class="three__size" value="1200">30х40 см</option>
+                <option class="four__size" value="1300 ">40х40 см</option>
+                <option class="five__size" value="1490 ">40х50 см</option>
+                <option class="six__size" value="1590 ">40х60 см</option>
+                <option class="seven__size" value="1690 ">40х70 см</option>
+                <option class="eight__size" value="1600 ">50х50 см</option>
+                <option class="nine__size" value="1580 ">50х60 см</option>
+                <option class="ten__size" value="1700 ">50х70 см</option>
+                <option class="eleven__size" value="2290 ">60х80 см</option>
+                <option class="one__size" value="2490 ">60х90 см</option>
+                <option class="twelve__size" value="2600 ">70х80 см</option>
+                <option class="thirteen__size" value="2850 ">80х90 см</option>
+                <option class="fiveteen__size" value="3900 ">80х120 см</option>
+                <option class="sixteen__size" value="4800 ">100х150 см</option>
+              </select>
+            </label>
+
+                    <h3 class="defend__title ">Покрыть защитным лаком?</h3>
+                    <p class="defend__subtitle ">
+                        Покрытие лаком защищает картину от внешних воздействий.
+                    </p>
+                    <div class="form__box ">
+                        <div class="form__box--checkbox ">
+                            <input id="varnishing-yes" class="defend__yes" type="radio" name="varnishing" />
+                            <label for="defend__yes">Да</label>
+                        </div>
+                        <div class="form__box--checkbox ">
+                            <input id="varnishing-no" class="defend__no" type="radio" name="varnishing" />
+                            <label for="defend__no">Нет</label>
+                        </div>
+                    </div>
+                    <h3 class="gift__title">Нужна ли подарочная упаковка?</h3>
+                    <div class="form__box">
+                        <div class="form__box--checkbox">
+                            <input id="packaging-yes" class="gift__yes" type="radio" name="packaging " />
+                            <label for="gift__yes">Да</label>
+                        </div>
+                        <div class="form__box--checkbox ">
+                            <input id="packaging-no" class="gift__no" type="radio" name="packaging" />
+                            <label for="gift__no">Нет</label>
+                        </div>
+                    </div>
+                    <h3 class="bagget__title">Нужен ли багет?</h3>
+                    <div class="form__box ">
+                        <div class="form__box--checkbox ">
+                            <input id="baget-yes" class="bagget__yes" type="radio" name="baget " />
+                            <label for="bagget__yes">Да</label>
+                        </div>
+                        <div class="form__box--checkbox ">
+                            <input id="baget-no" class="bagget__no" type="radio" name="baget " />
+                            <label for="bagget__no">Нет</label>
+                        </div>
+                    </div>
+                    <div class="form__item">
+                        <div class="form__label">Прикрепить фото</div>
+                        <div class="file">
+                            <div class="file__item">
+                                <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                                <div class="file__button">Выбрать</div>
+                            </div>
+                            <div id="formPreview" class="file__preview"></div>
+                        </div>
+                    </div>
+                    <input class="form__name" type="name" placeholder="Введите ваше имя " required />
+                    <input class="form__phone" type="phone" placeholder="Введите ваш номер телефона" required />
+                    <div class="form__sum">
+                        Итого: <span id="price" class="form__price">0</span> руб
+                    </div>
+                    <button class="services__item--btn">Заказать</button>
+                </form>
+            </div>
+        </section>
+        <section id="contacts " class="contacts ">
+            <div class="container ">
+                <h2 class="contacts__title main__title ">
+                    Как нас <span class="form__color ">найти</span>
+                </h2>
+                <div class="contacts__box ">
+                    <img src="./images/contacts.png " alt="карта местоположения " class="contacts__content--img " />
+                    <div class="contacts__content ">
+                        <h2 class="content__title ">Студия печати Аполлон</h2>
+                        <ul class="content__list ">
+                            <li class="content__imem ">
+                                <h3 class="content__subtitle ">Адрес:</h3>
+                                <p class="content__text ">г.Тюмень, Одесская 9,офис 813 </p>
+                            </li>
+                            <li class="content__imem ">
+                                <h3 class="content__subtitle ">Режим работы:</h3>
+                                <p class="content__text ">9:00-19:00 с пн по пт</p>
+                            </li>
+                            <li class="content__imem ">
+                                <h3 class="content__subtitle ">Телефон:</h3>
+                                <a href="tel:89223983230" class="content__text ">8 (922) 398-32-30</a>
+                            </li>
+                            <!--<li class="content__imem ">-->
+                            <!--    <h3 class="content__subtitle ">Электронный почта:</h3>-->
+                            <!--    <p class="content__text ">тескт</p>-->
+                            <!--</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="https://wa.me/+79871281285" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i><div type="button" class="whatsapp-button"><div class="text-button"><i class="fa fa-whatsapp"></i><span>WhatsApp</span></div></div></a>
+    <footer class="footer ">
+        <div class="footer__content ">
+            <h2 class="footer__title ">Студия печати Аполлон</h2>
+            <p class="footer__text ">Политика конфиденциальности</p>
+            <p class="contacts__text ">
+                <a class="contacts__tel " href="tel:89223983230">8 (922) 398-32-30</a>
+            </p>
+        </div>
+    </footer>
+    <div class="pop__up">
+        <form action="#" class="form pop__up--form ">
+            <input type="hidden" name="project_name" value="apollonholst.ru">
+            <input type="hidden" name="admin_email" value="ksgoup@yandex.ru">
+            <input type="hidden" name="form_subject" value="Form PopUp">
+            <h2 class="form__title main__title ">
+                Закажите <span class="main__title-color">фото на холсте</span>
+            </h2>
+            <label>
+          <h3 class="select">Выберите ширину (см) и высоту (см)</h3>
+          <select name="size" id="width-two" class="form__select" required>
+            <option class="one__size " value="0 "></option>
+            <option class="one__size " value="1000 ">30х20 см</option>
+            <option class="two__size " value="1100 ">30х30 см</option>
+            <option class="three__size " value="1200 ">30х40 см</option>
+            <option class="four__size " value="1300 ">40х40 см</option>
+            <option class="five__size " value="1490 ">40х50 см</option>
+            <option class="six__size " value="1590 ">40х60 см</option>
+            <option class="seven__size " value="1690 ">40х70 см</option>
+            <option class="eight__size " value="1600 ">50х50 см</option>
+            <option class="nine__size " value="1580 ">50х60 см</option>
+            <option class="ten__size " value="1700 ">50х70 см</option>
+            <option class="eleven__size " value="2290 ">60х80 см</option>
+            <option class="one__size " value="2490 ">60х90 см</option>
+            <option class="twelve__size " value="2600 ">70х80 см</option>
+            <option class="thirteen__size " value="2850 ">80х90 см</option>
+            <option class="fiveteen__size " value="3900 ">80х120 см</option>
+            <option class="sixteen__size " value="4800 ">100х150 см</option>
+          </select>
+        </label>
+
+            <h3 class="defend__title">Покрыть защитным лаком?</h3>
+            <p class="defend__subtitle">
+                Покрытие лаком защищает картину от внешних воздействий.
+            </p>
+            <div class="form__box ">
+                <div class="form__box--checkbox ">
+                    <input id="varnishing-yes-two" class="defend__yes" type="radio" name="varnishing" />
+                    <label for="defend__yes">Да</label>
+                </div>
+                <div class="form__box--checkbox">
+                    <input id="varnishing-no-two" class="defend__no" type="radio" name="varnishing" />
+                    <label for="defend__no">Нет</label>
+                </div>
+            </div>
+            <h3 class="gift__title ">Нужна ли подарочная упаковка?</h3>
+            <div class="form__box ">
+                <div class="form__box--checkbox ">
+                    <input id="packaging-yes-two" class="gift__yes" type="radio" name="packaging " />
+                    <label for="gift__yes ">Да</label>
+                </div>
+                <div class="form__box--checkbox ">
+                    <input id="packaging-no-two" class="gift__no" type="radio" name="packaging" />
+                    <label for="gift__no ">Нет</label>
+                </div>
+            </div>
+            <h3 class="bagget__title">Нужен ли багет?</h3>
+            <div class="form__box">
+                <div class="form__box--checkbox">
+                    <input id="baget-yes-two" class="bagget__yes" type="radio" name="baget " />
+                    <label for="bagget__yes">Да</label>
+                </div>
+                <div class="form__box--checkbox ">
+                    <input id="baget-no-two" class="bagget__no" type="radio" name="baget " />
+                    <label for="bagget__no">Нет</label>
+                </div>
+            </div>
+            <div class="form__item">
+                <div class="form__label">Прикрепить фото</div>
+                <div class="file">
+                    <div class="file__item">
+                        <input id="formImagepopup" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                        <div class="file__button">Выбрать</div>
+                    </div>
+                    <div id="formPreviewpopup" class="file__preview"></div>
+                </div>
+            </div>
+            <input class="form__name" type="name" placeholder="Введите ваше имя" required />
+            <input class="form__phone" type="phone" placeholder="Введите ваш номер телефона" required />
+            <div class="form__sum ">
+                Итого: <span id="price-two" class="form__price">0</span> руб
+            </div>
+            <button class="services__item--btn">Заказать</button>
+            <p class="pop__up--close ">
+                &#10006;
+            </p>
+        </form>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js "></script>
+    <script src="js/slick.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+    <script src="js/jquery.event.move.js "></script>
+    <script src="js/jquery.twentytwenty.js "></script>
+    <script src="js/script.js "></script>
+    <script src="js/form.js "></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a ").on("click ", function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== " ") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $("html, body ").animate({
+                            scrollTop: $(hash).offset().top,
+                        },
+                        800,
+                        function() {
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        }
+                    );
+                } // End if
+            });
+        });
+    </script>
+</body>
+
+</html>
+
